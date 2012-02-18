@@ -13,10 +13,10 @@ project_type = :stand_alone
 # paths
 # Set this to the root of your project when deployed:
 http_path       = "/"
-sass_dir        = ""
-css_dir         = ""
-images_dir      = "../img"
-javascripts_dir = "../js"
+css_dir         = "sass"
+sass_dir        = "sass"
+images_dir      = "img"
+javascripts_dir = "js"
 
 # output option: nested, expanded, compact, compressed
 output_style = :expanded
